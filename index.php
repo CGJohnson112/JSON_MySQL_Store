@@ -25,13 +25,12 @@
     $sum = $product2['cost'];
 
     //SQL command to add upp all the costs and get the average value in the table entry
-    $query3 = mysqli_query($con, "SELECT AVG(cost) AS cost FROM products");
+    $query3 = mysqli_query($con, "SELECT ROUND ( AVG(cost), 2) AS cost FROM products");
     //$result2 = mysqli_query($con, $query2);
     $product3 = mysqli_fetch_assoc($query3);
     $avgCt = $product3['cost'];
+  
 
-    echo $avgCt;
-   
     ?>
     
 
@@ -66,13 +65,15 @@
     <?php
     }
     ?>
+
+<tr >
+      <td colspan="5">Total Count: <span><?php echo $sum; ?></span></td>
+    </tr>
     <tr >
       
       <td colspan="5">Average: <span><?php echo $avgCt; ?></span> </td>
     </tr>
-    <tr >
-      <td colspan="5">Total Count: <span><?php echo $sum; ?></span></td>
-    </tr>
+    
     
   </tbody>
 </table>
