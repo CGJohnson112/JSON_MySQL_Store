@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Pickle",
+        "description": "Pickle is pickle",
+        "cost": "50",
+        "image": "image_1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Blunt Force",
+        "description": "Blunt force stuff",
+        "cost": "26",
+        "image": "image_2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Cash Cow",
+        "description": "Pepperdyne University",
+        "cost": "36",
+        "image": "image_4.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Shuddup Dummy",
+        "description": "Old Rubber Bottomed sole shoes",
+        "cost": "18",
+        "image": "image_10.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Kappa Pixel",
+        "description": "is kinda dumb",
+        "cost": "19",
+        "image": "img_160.png"
+    },
+    {
+        "id": "6",
+        "name": "Rocky Balboa",
+        "description": "Best boxer",
+        "cost": "50",
+        "image": "rocky.jpg"
+    }
+]
