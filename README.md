@@ -7,4 +7,6 @@ Table is compiled by data from a database table in MySQL, and is also recorded i
 
 
 <img width="722" alt="Screenshot 2023-12-18 at 6 32 18 PM" src="https://github.com/CGJohnson112/JSON_MySQL_Store/assets/22375594/055d0d9d-5edc-4ce5-81a9-5937f392d6eb">
-![Screenshot 2023-12-18 at 6 32 35 PM](https://github.com/CGJohnson112/JSON_MySQL_Store/assets/22375594/b368b60e-7fee-4ab5-96df-9e37d4051062)
+
+
+![Screenshot 2023-12-18 at 6 32 35 PM](https://github.com/CGJohnson112/JSON_MySQL_Store/assets/22375594/551e5e84-0eab-432d-84c4-16550ab61350)
