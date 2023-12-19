@@ -1,51 +1,23 @@
 [
     {
         "id": 1,
-        "name": "Pickle",
-        "description": "Pickle is pickle",
-        "cost": 46,
-        "image": "image_1.jpg"
+        "name": "Alphtest",
+        "description": "bbbvvv",
+        "cost": 0,
+        "image": "image.jpg"
     },
     {
         "id": 2,
-        "name": "Blunt Force",
-        "description": "Blunt force stuff",
-        "cost": 26.75,
-        "image": "image_2.jpg"
+        "name": "Pickle",
+        "description": "pickle blow",
+        "cost": 15,
+        "image": "image.jpg"
     },
     {
         "id": 3,
-        "name": "Cash Cow",
-        "description": "Pepperdyne University",
-        "cost": 36,
-        "image": "image_4.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Shuddup Dummy",
-        "description": "Old Rubber Bottomed sole shoes",
-        "cost": 18,
-        "image": "image_10.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Kappa Pixel",
-        "description": "is kinda dumb",
-        "cost": 19,
-        "image": "img_160.png"
-    },
-    {
-        "id": 6,
-        "name": "Rocky Balboa",
-        "description": "Best boxer",
-        "cost": 50,
-        "image": "rocky.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Charlie",
-        "description": "fdffd",
-        "cost": 46,
-        "image": "ralpo.jpg"
+        "name": "Own Life",
+        "description": "own life 2",
+        "cost": 20.99,
+        "image": "cat.jpg"
     }
 ]
