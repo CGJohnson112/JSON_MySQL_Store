@@ -15,7 +15,6 @@
     $query = "SELECT * from products";
     $result = mysqli_query($con, $query);
 
-
     //SQL command to add upp all the costs and get the total value in the table entry
     $query2 = mysqli_query($con, "SELECT SUM(cost) AS cost FROM products");
     //$result2 = mysqli_query($con, $query2);
