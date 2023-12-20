@@ -58,15 +58,17 @@
     <tr>
       <td>Total Count:</td>
       <td></td>
+      <td><span><b><?php echo $sum; ?></b></span></td>
       <td></td>
-          <td><span><?php echo $sum; ?></span></td>
+          
 
         </tr>
         <tr >
         <td>Average:</td>
         <td></td>
+        <td><span><b><?php echo $avgCt; ?></b></span> </td>
         <td></td>
-          <td><span><?php echo $avgCt; ?></span> </td>
+          
         </tr> 
       </tbody>
     </table>
