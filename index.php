@@ -14,7 +14,7 @@
     require_once('db.php');
     $query = "SELECT * from products";
     $result = mysqli_query($con, $query);
-    $product = mysqli_fetch_assoc($result);
+
 
     //SQL command to add upp all the costs and get the total value in the table entry
     $query2 = mysqli_query($con, "SELECT SUM(cost) AS cost FROM products");
@@ -27,7 +27,6 @@
     //$result2 = mysqli_query($con, $query2);
     $product3 = mysqli_fetch_assoc($query3);
     $avgCt = $product3['cost'];
-  
 
     ?>
     <table class="table">
@@ -41,14 +40,13 @@
     </tr>
   </thead>
       <tbody>
-      <tr>
-          
-          
+      <tr>    
         <?php
       
         while($product = mysqli_fetch_assoc($result))
         
         {
+          
         ?>
           <td><?php echo $product['name'];?></td>
             <td><?php echo $product['description'];?></td>
