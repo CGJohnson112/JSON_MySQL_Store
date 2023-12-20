@@ -17,13 +17,11 @@
 
     //SQL command to add upp all the costs and get the total value in the table entry
     $query2 = mysqli_query($con, "SELECT SUM(cost) AS cost FROM products");
-    //$result2 = mysqli_query($con, $query2);
     $product2 = mysqli_fetch_assoc($query2);
     $sum = $product2['cost'];
 
     //SQL command to add upp all the costs and get the average value in the table entry
     $query3 = mysqli_query($con, "SELECT ROUND ( AVG(cost), 2) AS cost FROM products");
-    //$result2 = mysqli_query($con, $query2);
     $product3 = mysqli_fetch_assoc($query3);
     $avgCt = $product3['cost'];
 
@@ -76,6 +74,5 @@
 <!-- jQuery library -->
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
