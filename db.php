@@ -28,3 +28,9 @@ $query = "SELECT * from products";
     $query3 = mysqli_query($mysqli, "SELECT ROUND ( AVG(cost), 2) AS cost FROM products");
     $product3 = mysqli_fetch_assoc($query3);
     $avgCt = $product3['cost'];
+
+    //SQL command to add upp all the ratings and get the average value in the table entry
+    $query4 = mysqli_query($mysqli, "SELECT ROUND ( AVG(rating), 2) AS rating FROM products");
+    $product4 = mysqli_fetch_assoc($query4);
+    $avgCt2 = $product4['rating'];
+

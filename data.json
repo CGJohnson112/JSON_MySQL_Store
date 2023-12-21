@@ -4,20 +4,31 @@
         "name": "Alphtest",
         "description": "This is the info ",
         "cost": 65.94,
-        "image": "image.jpg"
+        "image": "image.jpg",
+        "rating": 4
     },
     {
         "id": 2,
         "name": "Pickle",
         "description": "pickle blow",
         "cost": 15,
-        "image": "image.jpg"
+        "image": "image.jpg",
+        "rating": 5
     },
     {
         "id": 3,
         "name": "Own Life",
         "description": "own life 2",
         "cost": 20.99,
-        "image": "cat.jpg"
+        "image": "cat.jpg",
+        "rating": 2
+    },
+    {
+        "id": 4,
+        "name": "Elephant",
+        "description": "it is big",
+        "cost": 15.01,
+        "image": "image5.jpg",
+        "rating": 1
     }
 ]

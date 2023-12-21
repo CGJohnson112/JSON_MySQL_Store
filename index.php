@@ -22,6 +22,7 @@
       <th scope="col">Description</th>
       <th scope="col">Cost</th>
       <th scope="col">Image</th>
+      <th scope="col">Rating</th>
     </tr>
   </thead>
       <tbody>
@@ -35,9 +36,9 @@
         ?>
           <td><?php echo $product['name'];?></td>
             <td><?php echo $product['description'];?></td>
-            
             <td><?php echo $product['cost'];?></td>
             <td><?php echo $product['image'];?></td>
+            <td><?php echo $product['rating'];?></td>
         </tr>    
         <?php
         }
@@ -55,6 +56,13 @@
         <td>Average:</td>
         <td></td>
         <td><span><b><?php echo $avgCt; ?></b></span> </td>
+        <td></td>
+
+        </tr>
+        <tr >
+        <td>Rating Average:</td>
+        <td></td>
+        <td><span><b><?php echo $avgCt2; ?></b></span> </td>
         <td></td>
           
         </tr> 
