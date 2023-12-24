@@ -45,7 +45,7 @@
         ?>
 
     <tr>
-      <td>Total Count:</td>
+      <td>Total Price Count:</td>
       <td></td>
       <td><span><b><?php echo $sum; ?></b></span></td>
       <td></td>
@@ -53,7 +53,7 @@
 
         </tr>
         <tr >
-        <td>Average:</td>
+        <td>Average Cost of Single Item:</td>
         <td></td>
         <td><span><b><?php echo $avgCt; ?></b></span> </td>
         <td></td>
