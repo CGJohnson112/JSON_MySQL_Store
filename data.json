@@ -1,26 +1,16 @@
 [
     {
-        "id": 5,
-        "name": "Dog Bites",
-        "description": "ooo",
-        "cost": 88,
-        "image": "bey.jpg",
+        "id": 10,
+        "name": "Taylor Swift Guitar",
+        "description": "Fender Stratocaster",
+        "cost": 1999.99,
         "rating": 1
     },
     {
-        "id": 6,
-        "name": "Dog Bites",
-        "description": "ooo",
-        "cost": 88,
-        "image": "bey.jpg",
-        "rating": 1
-    },
-    {
-        "id": 7,
-        "name": "Borneo Catt",
-        "description": "lorem ipsum is a lopsided wold",
-        "cost": 200.95,
-        "image": "farts.jpg",
-        "rating": 5
+        "id": 11,
+        "name": "Travis Kelce Drum Set",
+        "description": "Ziljdan cymbals, snare, highhat, full set",
+        "cost": 2099.35,
+        "rating": 3
     }
 ]

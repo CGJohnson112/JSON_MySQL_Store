@@ -1,19 +1,18 @@
 <?php
 
 //require 'db.php';
-$mysqli = new mysqli('localhost', 'root', 'root', 'tutorials') or die ("Connection failed. bozo");
+$mysqli = new mysqli('localhost', 'root', 'root', 'tutorials') or die ("Connection failed.");
 $name= $_POST['name'];
 $description= $_POST['description'];
 $cost= $_POST['cost'];
-$image= $_POST['image'];
 $rating= $_POST['rating'];
 
 if (isset($_POST['submit'])) {
    //echo $rating;
-   $sqlQuery = "INSERT INTO products (name, description, cost, image, rating) VALUES ('$name', '$description', '$cost', '$image', '$rating')";
+   $sqlQuery = "INSERT INTO products (name, description, cost, rating) VALUES ('$name', '$description', '$cost', '$rating')";
 
    if (mysqli_query($mysqli, $sqlQuery)) {
-      echo "Info inserted";
+      header("location:index.php");
    } else {
       echo "Error: " . $sqlQuery . " " . $mysqli->error;
    }

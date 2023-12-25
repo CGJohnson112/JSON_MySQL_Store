@@ -1,9 +1,9 @@
 <?php
 //first three lines are troubleshooting code 
-ini_set('display_errors', 1);
+/*ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-$mysqli = new mysqli('localhost', 'root', 'root', 'tutorials') or die ("Connection failed. bozo");
+error_reporting(E_ALL);*/
+$mysqli = new mysqli('localhost', 'root', 'root', 'tutorials') or die ("Connection failed.");
 
 $sql = "SELECT * FROM products";
     $results = $mysqli->query($sql);

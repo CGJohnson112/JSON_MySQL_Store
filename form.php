@@ -28,11 +28,6 @@
     <input type="number" class="form-control" name="cost" pattern="^\d(\.\d{0,2})?$" step=".01"/>
   </div>
 
-  <div class="form-group">
-    <label>Image Link</label>
-    <input type="text" class="form-control" name="image">
-  </div>
-
   <select type="number" class="form-select form-select mt-3" name="rating">
     <option value=1>Poor</option>
     <option value=2>Dislike</option>
@@ -43,6 +38,7 @@
   
   <button type="submit" name="submit" class="btn btn-dark">Submit</button> 
 </form>
+<button type="submit" onclick="window.location.href='index.php'" class="btn btn-success">Back to table</button> 
 
 
 
