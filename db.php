@@ -16,7 +16,8 @@ $sql = "SELECT * FROM products";
     $encoded_data = json_encode($products, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK);
     file_put_contents($file_name, $encoded_data);
 
-    $query = "SELECT * from products";
+    //orders table in alphabetical order by name of product --does not affect order of JSON file data entry
+    $query = "SELECT * from products ORDER BY name ASC";
     $result = mysqli_query($mysqli, $query);
 
     //SQL command to add upp all the costs and get the total value in the table entry

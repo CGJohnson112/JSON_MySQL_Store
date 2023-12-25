@@ -19,5 +19,12 @@
         "description": "Gildan jersey authentic NFL production",
         "cost": 1700.18,
         "rating": 5
+    },
+    {
+        "id": 13,
+        "name": "Al Cowlings Ford Bronco",
+        "description": "His famous truck of all time",
+        "cost": 17000,
+        "rating": 1
     }
 ]
