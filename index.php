@@ -41,23 +41,30 @@
         <?php
         }
         ?>
-
+    <!--added spacer for totals and average sections of table-->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <!--end spacer-->
+      
     <tr>
-      <td>Total Price Count:</td>
+      <td><b>Total Price Count:<b></td>
       <td></td>
       <td><span><b><?php echo $sum; ?></b></span></td>
       <td></td>
     
         </tr>
         <tr >
-        <td>Average Cost of Single Item:</td>
-        <td></td>
-        <td><span><b><?php echo $avgCt; ?></b></span> </td>
-        <td></td>
-
+          <td><b>Average Cost of Single Item:</b></td>
+          <td></td>
+          <td><span><b><?php echo $avgCt; ?></b></span> </td>
+          <td></td>
         </tr>
         <tr >
-        <td>Rating Average:</td>
+        <td><b>Rating Average</b>:</td>
         <td></td>
         <td><span><b><?php echo $avgCt2; ?></b></span> </td>
         <td></td>

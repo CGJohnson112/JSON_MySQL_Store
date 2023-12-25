@@ -12,5 +12,12 @@
         "description": "Ziljdan cymbals, snare, highhat, full set",
         "cost": 2099.35,
         "rating": 3
+    },
+    {
+        "id": 12,
+        "name": "Patrick Mahomes Jersey",
+        "description": "Gildan jersey authentic NFL production",
+        "cost": 1700.18,
+        "rating": 5
     }
 ]
