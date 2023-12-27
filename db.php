@@ -12,6 +12,8 @@ $sql = "SELECT * FROM products";
         //only set up to enter entire array into data.json
         $products[] = $product;   
     }
+
+    //this is the code that transfers the SQL data to the .json file 
     $file_name = 'data.json';
     $encoded_data = json_encode($products, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK);
     file_put_contents($file_name, $encoded_data);

@@ -7,6 +7,7 @@
 <title>JSON_MYSQL_Database_Online_store</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
 </head>
 <body>
 <div class="container">
@@ -72,11 +73,11 @@
         </tr> 
       </tbody>
     </table>
-
     <button type="submit" onclick="window.location.href='form.php'" class="btn btn-danger">Go to form</button> 
-</div>
+  </div>
 <!-- jQuery library -->
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
