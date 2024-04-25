@@ -36,7 +36,7 @@
         ?>
           <td><?php echo $product['name'];?></td>
             <td><?php echo $product['description'];?></td>
-            <td><?php echo $product['cost'];?></td>
+            <td>$<?php echo number_format($product['cost']);?></td>
             <td><?php echo $product['rating'];?></td>
         </tr>    
         <?php
@@ -54,14 +54,14 @@
     <tr>
       <td><b>Total Price Count:<b></td>
       <td></td>
-      <td><span><b><?php echo $sum; ?></b></span></td>
+      <td><span>$<b><?php echo number_format($sum); ?></b></span></td>
       <td></td>
     
         </tr>
         <tr >
           <td><b>Average Cost of Single Item:</b></td>
           <td></td>
-          <td><span><b><?php echo $avgCt; ?></b></span> </td>
+          <td><span><b>$<?php echo number_format($avgCt); ?></b></span> </td>
           <td></td>
         </tr>
         <tr >
