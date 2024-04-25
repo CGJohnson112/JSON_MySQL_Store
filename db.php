@@ -37,3 +37,4 @@ $sql = "SELECT * FROM products";
     $product4 = mysqli_fetch_assoc($query4);
     $avgCt2 = $product4['rating'];
 
+?>

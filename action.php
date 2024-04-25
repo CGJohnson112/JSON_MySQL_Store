@@ -1,9 +1,10 @@
 <?php
 
-//require 'db.php';
+require 'db.php';
 $mysqli = new mysqli('localhost', 'root', 'root', 'tutorials') or die ("Connection failed.");
-$name= $_POST['name'];
-$description= $_POST['description'];
+//real_escape_string added to allow punctuation when filling out form
+$name= $mysqli ->  real_escape_string($_POST['name']);
+$description= $mysqli -> real_escape_string($_POST['description']);
 $cost= $_POST['cost'];
 $rating= $_POST['rating'];
 
